@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tree="http://www.treeage.com/modeldefs/tree">
+  <tree:Tree xmi:id="_6nbAgNU6EeefhcmtA_oDvA">
+    <Node xmi:id="_6nbAgdU6EeefhcmtA_oDvA" NameID="Node1" Label="Treatment Stratergies for NCFBE" NodeType="DecisionNode">
+      <Node xmi:id="_6nbAgtU6EeefhcmtA_oDvA" NameID="Node3" Label="Tobramycin" NodeType="ChanceNode">
+        <Node xmi:id="_6nbAg9U6EeefhcmtA_oDvA" NameID="Node5" Label="medication continuation" NodeType="ChanceNode">
+          <Prob xmi:id="_6nbAhNU6EeefhcmtA_oDvA" Value="0.495"/>
+          <Node xmi:id="_6nbnkNU6EeefhcmtB-oDvA" NameID="Node8" Label="medication continuation" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnkdU6EeefhcmtB-oDvA" Value="0.475"/>
+            <Payoff xmi:id="_6nbnktU6EeefhcmtB-oDvA" Set="1" Value="0.5"/>
+            <Payoff xmi:id="_6nbnk9U6EeefhcmtB-oDvA" Set="2" Value="2"/>
+            <Payoff xmi:id="_6nbnlNU6EeefhcmtB-oDvA" Set="3" Value="2.02"/>
+            <Payoff xmi:id="_6nbnldU6EeefhcmtC9oDvA" Set="4" Value="114400"/>
+          </Node>
+          <Node xmi:id="_6nbnltU6EeefhcmtC9oDvA" NameID="Node7" Label="medication discontinuation" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnl9U6EeefhcmtC9oDvA" Value="0.475"/>
+            <Payoff xmi:id="_6nbnmNU6EeefhcmtC9oDvA" Set="1" Value="0.5"/>
+            <Payoff xmi:id="_6nbnmdU6EeefhcmtC9oDvA" Set="2" Value="0.0087"/>
+            <Payoff xmi:id="_6nbnmtU6EeefhcmtD8oDvA" Set="3" Value="0.826"/>
+            <Payoff xmi:id="_6nbnm9U6EeefhcmtD8oDvA" Set="4" Value="66733.34"/>
+          </Node>
+          <Node xmi:id="_6nbnnNU6EeefhcmtD8oDvA" NameID="Node9" Label="Death" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnndU6EeefhcmtD8oDvA" Value="0.05"/>
+            <Payoff xmi:id="_6nbnntU6EeefhcmtD8oDvA" Set="1" Value="0"/>
+            <Payoff xmi:id="_6nbnn9U6EeefhcmtE7oDvA" Set="2" Value="0"/>
+            <Payoff xmi:id="_6nbnoNU6EeefhcmtE7oDvA" Set="3" Value="0"/>
+            <Payoff xmi:id="_6nbnodU6EeefhcmtE7oDvA" Set="4" Value="2860"/>
+          </Node>
+        </Node>
+        <Node xmi:id="_6nbnotU6EeefhcmtE7oDvA" NameID="Node11" Label="Medication discontinuation" NodeType="TerminalNode" Node="">
+          <Prob xmi:id="_6nbno9U6EeefhcmtE7oDvA" Value="0.495"/>
+          <Payoff xmi:id="_6nbnpNU6EeefhcmtF6oDvA" Set="1" Value="0.25"/>
+          <Payoff xmi:id="_6nbnpdU6EeefhcmtF6oDvA" Set="2" Value="2.8"/>
+          <Payoff xmi:id="_6nbnptU6EeefhcmtF6oDvA" Set="3" Value="1.9"/>
+          <Payoff xmi:id="_6nbnp9U6EeefhcmtF6oDvA" Set="4" Value="1960.65"/>
+        </Node>
+        <Node xmi:id="_6nbnqNU6EeefhcmtF6oDvA" NameID="Node6" Label="Death" NodeType="TerminalNode">
+          <Prob xmi:id="_6nbnqdU6EeefhcmtG5oDvA" Value="0.01"/>
+          <Payoff xmi:id="_6nbnqtU6EeefhcmtG5oDvA" Set="1" Value="0"/>
+          <Payoff xmi:id="_6nbnq9U6EeefhcmtG5oDvA" Set="2" Value="&#x9;0"/>
+          <Payoff xmi:id="_6nbnrNU6EeefhcmtG5oDvA" Set="3" Value="&#x9;0"/>
+          <Payoff xmi:id="_6nbnrdU6EeefhcmtG5oDvA" Set="4" Value="1100"/>
+        </Node>
+      </Node>
+      <Node xmi:id="_6nbnrtU6EeefhcmtH4oDvA" NameID="Node2" Label="Azithromycin" NodeType="ChanceNode">
+        <Node xmi:id="_6nbnr9U6EeefhcmtH4oDvA" NameID="Node17" Label="medication continuation" NodeType="ChanceNode">
+          <Prob xmi:id="_6nbnsNU6EeefhcmtH4oDvA" Value="0.505"/>
+          <Node xmi:id="_6nbnsdU6EeefhcmtH4oDvA" NameID="Node18" Label="medication continuation" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnstU6EeefhcmtH4oDvA" Value="0.525"/>
+            <Payoff xmi:id="_6nbns9U6EeefhcmtI3oDvA" Set="1" Value="0.5"/>
+            <Payoff xmi:id="_6nbntNU6EeefhcmtI3oDvA" Set="2" Value="2.15"/>
+            <Payoff xmi:id="_6nbntdU6EeefhcmtI3oDvA" Set="3" Value="0.81"/>
+            <Payoff xmi:id="_6nbnttU6EeefhcmtI3oDvA" Set="4" Value="62400"/>
+          </Node>
+          <Node xmi:id="_6nbnt9U6EeefhcmtI3oDvA" NameID="Node19" Label="medication discontinuation" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnuNU6EeefhcmtJ2oDvA" Value="0.425"/>
+            <Payoff xmi:id="_6nbnudU6EeefhcmtJ2oDvA" Set="1" Value="0.5"/>
+            <Payoff xmi:id="_6nbnutU6EeefhcmtJ2oDvA" Set="2" Value="0.018"/>
+            <Payoff xmi:id="_6nbnu9U6EeefhcmtJ2oDvA" Set="3" Value="0.36"/>
+            <Payoff xmi:id="_6nbnvNU6EeefhcmtJ2oDvA" Set="4" Value="72800"/>
+          </Node>
+          <Node xmi:id="_6nbnvdU6EeefhcmtK1oDvA" NameID="Node20" Label="Death" NodeType="TerminalNode">
+            <Prob xmi:id="_6nbnvtU6EeefhcmtK1oDvA" Value="0.05"/>
+            <Payoff xmi:id="_6nbnv9U6EeefhcmtK1oDvA" Set="1" Value="0"/>
+            <Payoff xmi:id="_6nbnwNU6EeefhcmtK1oDvA" Set="2" Value="0"/>
+            <Payoff xmi:id="_6nbnwdU6EeefhcmtK1oDvA" Set="3" Value="0"/>
+            <Payoff xmi:id="_6nbnwtU6EeefhcmtL0oDvA" Set="4" Value="3120"/>
+          </Node>
+        </Node>
+        <Node xmi:id="_6nbnw9U6EeefhcmtL0oDvA" NameID="Node22" Label="Medication discontinuation" NodeType="TerminalNode" Node="">
+          <Prob xmi:id="_6nbnxNU6EeefhcmtL0oDvA" Value="0.485"/>
+          <Payoff xmi:id="_6nbnxdU6EeefhcmtL0oDvA" Set="1" Value="0.5"/>
+          <Payoff xmi:id="_6nbnxtU6EeefhcmtL0oDvA" Set="2" Value="0.09"/>
+          <Payoff xmi:id="_6nbnx9U6EeefhcmtMzoDvA" Set="3" Value="0.31"/>
+          <Payoff xmi:id="_6nbnyNU6EeefhcmtMzoDvA" Set="4" Value="1051.56"/>
+        </Node>
+        <Node xmi:id="_6nbnydU6EeefhcmtMzoDvA" NameID="Node21" Label="Death" NodeType="TerminalNode">
+          <Prob xmi:id="_6nbnytU6EeefhcmtMzoDvA" Value="0.01"/>
+          <Payoff xmi:id="_6nbny9U6EeefhcmtMzoDvA" Set="1" Value="0"/>
+          <Payoff xmi:id="_6nbnzNU6EeefhcmtNyoDvA" Set="2" Value="0"/>
+          <Payoff xmi:id="_6nbnzdU6EeefhcmtNyoDvA" Set="3" Value="0"/>
+          <Payoff xmi:id="_6nbnztU6EeefhcmtNyoDvA" Set="4" Value="624"/>
+        </Node>
+      </Node>
+    </Node>
+    <CategoriesRoot xmi:id="_6nbnz9U6EeefhcmtNyoDvA"/>
+    <PreferenceSet xmi:id="_6nbn0NU6EeefhcmtNyoDvA" NameID="Pref. set 1">
+      <Preference xmi:id="_6nbn0dU6EeefhcmtOxoDvA" Name="locale" Value="en_US"/>
+      <Preference xmi:id="_6nbn0tU6EeefhcmtOxoDvA" Name="useCustomPayoffNames" Value="true"/>
+      <Preference xmi:id="_6nbn09U6EeefhcmtOxoDvA" Name="numberOfEnabledPayoffs" Value="4"/>
+      <Preference xmi:id="_6nbn1NU6EeefhcmtOxoDvA" Name="calcType" Value="ct_costEff"/>
+      <Preference xmi:id="_6nbn1dU6EeefhcmtOxoDvA" Name="ceCostPayoff" Value="1"/>
+      <Preference xmi:id="_6nbn1tU6EeefhcmtPwoDvA" Name="ceEffPayoff" Value="2"/>
+      <Preference xmi:id="_6nbn19U6EeefhcmtPwoDvA" Name="invertIncrementalEff" Value="false"/>
+      <Preference xmi:id="_6nbn2NU6EeefhcmtPwoDvA" Name="drawGraphCostY" Value="drawGraphCostY"/>
+      <Preference xmi:id="_6nbn2dU6EeefhcmtPwoDvA" Name="rollbackShowNetBen" Value="false"/>
+      <Preference xmi:id="_6nbn2tU6EeefhcmtPwoDvA" Name="useMaximumCost" Value="true"/>
+      <Preference xmi:id="_6nbn29U6EeefhcmtQvoDvA" Name="useMinimumEffectiveness" Value="false"/>
+      <Preference xmi:id="_6nbn3NU6EeefhcmtQvoDvA" Name="minimumEffectiveness" Value="0.01"/>
+      <Preference xmi:id="_6nbn3dU6EeefhcmtQvoDvA" Name="maximumCost" Value="20000."/>
+      <Preference xmi:id="_6nbn3tU6EeefhcmtQvoDvA" Name="willingnessToPay" Value="50000"/>
+      <Preference xmi:id="_6nbn39U6EeefhcmtQvoDvA" Name="average" Value="0."/>
+      <Preference xmi:id="_6nbn4NU6EeefhcmtRuoDvA" Name="calculateExtraPayoffs" Value="true"/>
+      <Preference xmi:id="_6nbn4dU6EeefhcmtRuoDvA" Name="useGlobalDiscounting" Value="false"/>
+      <Preference xmi:id="_6nbn4tU6EeefhcmtRuoDvA" Name="globalDiscountingMarkovCycleLength" Value=""/>
+      <Preference xmi:id="_6nbn49U6EeefhcmtRuoDvA" Name="globalDiscountingDESTimeUnit" Value=""/>
+      <Preference xmi:id="_6nbn5NU6EeefhcmtRuoDvA" Name="globalDiscountingDiscountRate1" Value=""/>
+      <Preference xmi:id="_6nbn5dU6EeefhcmtStoDvA" Name="globalDiscountingDiscountRate2" Value=""/>
+      <Preference xmi:id="_6nbn5tU6EeefhcmtStoDvA" Name="globalDiscountingDiscountRate3" Value=""/>
+      <Preference xmi:id="_6nbn59U6EeefhcmtStoDvA" Name="globalDiscountingDiscountRate4" Value=""/>
+      <Preference xmi:id="_6nbn6NU6EeefhcmtStoDvA" Name="forPayoff1evDecPlaces" Value="2"/>
+      <Preference xmi:id="_6nbn6dU6EeefhcmtStoDvA" Name="forPayoff1evDecTrailZeros" Value="true"/>
+      <Preference xmi:id="_6nbn6tU6EeefhcmtTsoDvA" Name="forPayoff1thousandsSep" Value="false"/>
+      <Preference xmi:id="_6nbn69U6EeefhcmtTsoDvA" Name="forPayoff1chopOffKMBPercent" Value="showExactly"/>
+      <Preference xmi:id="_6nbn7NU6EeefhcmtTsoDvA" Name="forPayoff1unitsType" Value="unitsType_currency"/>
+      <Preference xmi:id="_6nbn7dU6EeefhcmtTsoDvA" Name="forPayoff1unitsText" Value=""/>
+      <Preference xmi:id="_6nbn7tU6EeefhcmtTsoDvA" Name="forPayoff2evDecPlaces" Value="2"/>
+      <Preference xmi:id="_6nbn79U6EeefhcmtUroDvA" Name="forPayoff2evDecTrailZeros" Value="true"/>
+      <Preference xmi:id="_6nbn8NU6EeefhcmtUroDvA" Name="forPayoff2thousandsSep" Value="false"/>
+      <Preference xmi:id="_6nbn8dU6EeefhcmtUroDvA" Name="forPayoff2chopOffKMBPercent" Value="showExactly"/>
+      <Preference xmi:id="_6nbn8tU6EeefhcmtUroDvA" Name="forPayoff2unitsType" Value="unitsType_prefix"/>
+      <Preference xmi:id="_6nbn89U6EeefhcmtUroDvA" Name="forPayoff2unitsText" Value=""/>
+      <Preference xmi:id="_6nbn9NU6EeefhcmtVqoDvA" Name="forCostEffectivenessevDecPlaces" Value="2"/>
+      <Preference xmi:id="_6nbn9dU6EeefhcmtVqoDvA" Name="forCostEffectivenessevDecTrailZeros" Value="true"/>
+      <Preference xmi:id="_6nbn9tU6EeefhcmtVqoDvA" Name="forCostEffectivenessthousandsSep" Value="false"/>
+      <Preference xmi:id="_6nbn99U6EeefhcmtVqoDvA" Name="forCostEffectivenesschopOffKMBPercent" Value="showExactly"/>
+      <Preference xmi:id="_6nbn-NU6EeefhcmtVqoDvA" Name="forCostEffectivenessunitsType" Value="unitsType_none"/>
+      <Preference xmi:id="_6nbn-dU6EeefhcmtWpoDvA" Name="forCostEffectivenessunitsText" Value=""/>
+      <Preference xmi:id="_6nbn-tU6EeefhcmtWpoDvA" Name="1saWay0" Value="tobramycin"/>
+      <Preference xmi:id="_6nbn-9U6EeefhcmtWpoDvA" Name="sens3WayVariable3" Value="tobramycin"/>
+      <Preference xmi:id="_6nbn_NU6EeefhcmtWpoDvA" Name="monteNumVOISamples" Value="0"/>
+      <Preference xmi:id="_6nbn_dU6EeefhcmtWpoDvA" Name="monteNumSamples" Value="0"/>
+      <Preference xmi:id="_6nbn_tU6EeefhcmtXooDvA" Name="monteNumTrials" Value="10000"/>
+      <Preference xmi:id="_6nbn_9U6EeefhcmtXooDvA" Name="monteRunTrials" Value="false"/>
+      <Preference xmi:id="_6nboANU6EeefhcmtXooDvA" Name="monteRunParallelTrials" Value="false"/>
+      <Preference xmi:id="_6nboAdU6EeefhcmtXooDvA" Name="showNodeID" Value="false"/>
+      <Preference xmi:id="_6nboAtU6EeefhcmtXooDvA" Name="customPayoffName1" Value="Survival"/>
+      <Preference xmi:id="_6nboA9U6EeefhcmtYnoDvA" Name="customPayoffName2" Value="QALE"/>
+      <Preference xmi:id="_6nboBNU6EeefhcmtYnoDvA" Name="customPayoffName3" Value="QALYs"/>
+      <Preference xmi:id="_6nboBdU6EeefhcmtYnoDvA" Name="customPayoffName4" Value="Total Cost"/>
+    </PreferenceSet>
+  </tree:Tree>
+  <notation:Diagram xmi:id="_6nboBtU6EeefhcmtYnoDvA" type="TreeDocument" element="#_6nbAgNU6EeefhcmtA_oDvA" measurementUnit="Himetric">
+    <children xmi:id="_6nboB9U6EeefhcmtYnoDvA" type="TreeDocument_Tree">
+      <children xmi:id="_6nboCNU6EeefhcmtZmoDvA" type="DecisionNode" element="#_6nbAgdU6EeefhcmtA_oDvA">
+        <children xmi:id="_6nboCdU6EeefhcmtZmoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboCtU6EeefhcmtZmoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboC9U6EeefhcmtZmoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboDNU6EeefhcmtZmoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboDdU6EeefhcmtaloDvA" type="ChanceNode" element="#_6nbnrtU6EeefhcmtH4oDvA">
+        <children xmi:id="_6nboDtU6EeefhcmtaloDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboD9U6EeefhcmtaloDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboENU6EeefhcmtaloDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboEdU6EeefhcmtaloDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboEtU6EeefhcmtbkoDvA" type="ChanceNode" element="#_6nbAgtU6EeefhcmtA_oDvA">
+        <children xmi:id="_6nboE9U6EeefhcmtbkoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboFNU6EeefhcmtbkoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboFdU6EeefhcmtbkoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboFtU6EeefhcmtbkoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboF9U6EeefhcmtcjoDvA" type="ChanceNode" element="#_6nbAg9U6EeefhcmtA_oDvA">
+        <children xmi:id="_6nboGNU6EeefhcmtcjoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboGdU6EeefhcmtcjoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboGtU6EeefhcmtcjoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboG9U6EeefhcmtcjoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboHNU6EeefhcmtdioDvA" type="TerminalNode" element="#_6nbnqNU6EeefhcmtF6oDvA">
+        <children xmi:id="_6nboHdU6EeefhcmtdioDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboHtU6EeefhcmtdioDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboH9U6EeefhcmtdioDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboINU6EeefhcmtdioDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboIdU6EeefhcmtehoDvA" type="TerminalNode" element="#_6nbnltU6EeefhcmtC9oDvA">
+        <children xmi:id="_6nboItU6EeefhcmtehoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboI9U6EeefhcmtehoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboJNU6EeefhcmtehoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboJdU6EeefhcmtehoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboJtU6EeefhcmtfgoDvA" type="TerminalNode" element="#_6nbnkNU6EeefhcmtB-oDvA">
+        <children xmi:id="_6nboJ9U6EeefhcmtfgoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboKNU6EeefhcmtfgoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboKdU6EeefhcmtfgoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboKtU6EeefhcmtfgoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboK9U6EeefhcmtgfoDvA" type="TerminalNode" element="#_6nbnnNU6EeefhcmtD8oDvA">
+        <children xmi:id="_6nboLNU6EeefhcmtgfoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboLdU6EeefhcmtgfoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboLtU6EeefhcmtgfoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboL9U6EeefhcmtgfoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboMNU6EeefhcmtheoDvA" type="TerminalNode" element="#_6nbnotU6EeefhcmtE7oDvA">
+        <children xmi:id="_6nboMdU6EeefhcmtheoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboMtU6EeefhcmtheoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboM9U6EeefhcmtheoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboNNU6EeefhcmtheoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboNdU6EeefhcmtidoDvA" type="ChanceNode" element="#_6nbnr9U6EeefhcmtH4oDvA">
+        <children xmi:id="_6nboNtU6EeefhcmtidoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboN9U6EeefhcmtidoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboONU6EeefhcmtidoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboOdU6EeefhcmtidoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboOtU6EeefhcmtjcoDvA" type="TerminalNode" element="#_6nbnydU6EeefhcmtMzoDvA">
+        <children xmi:id="_6nboO9U6EeefhcmtjcoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboPNU6EeefhcmtjcoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboPdU6EeefhcmtjcoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboPtU6EeefhcmtjcoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboP9U6EeefhcmtkboDvA" type="TerminalNode" element="#_6nbnt9U6EeefhcmtI3oDvA">
+        <children xmi:id="_6nboQNU6EeefhcmtkboDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboQdU6EeefhcmtkboDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboQtU6EeefhcmtkboDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboQ9U6EeefhcmtkboDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboRNU6EeefhcmtlaoDvA" type="TerminalNode" element="#_6nbnsdU6EeefhcmtH4oDvA">
+        <children xmi:id="_6nboRdU6EeefhcmtlaoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboRtU6EeefhcmtlaoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboR9U6EeefhcmtlaoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboSNU6EeefhcmtlaoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboSdU6EeefhcmtmZoDvA" type="TerminalNode" element="#_6nbnvdU6EeefhcmtK1oDvA">
+        <children xmi:id="_6nboStU6EeefhcmtmZoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboS9U6EeefhcmtmZoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboTNU6EeefhcmtmZoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboTdU6EeefhcmtmZoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <children xmi:id="_6nboTtU6EeefhcmtnYoDvA" type="TerminalNode" element="#_6nbnw9U6EeefhcmtL0oDvA">
+        <children xmi:id="_6nboT9U6EeefhcmtnYoDvA" type="TreeNode_Label"/>
+        <children xmi:id="_6nboUNU6EeefhcmtnYoDvA" type="TreeNode_Probability"/>
+        <children xmi:id="_6nboUdU6EeefhcmtnYoDvA" type="TreeNode_Variables"/>
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboUtU6EeefhcmtnYoDvA" fontName="Segoe UI" lineColor="0"/>
+      </children>
+      <styles xsi:type="notation:ShapeStyle" xmi:id="_6nboU9U6EeefhcmtoXoDvA" fontName="Segoe UI" lineColor="0"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboVNU6EeefhcmtoXoDvA"/>
+    </children>
+    <children xmi:id="_6nboVdU6EeefhcmtoXoDvA" type="TreeExpectedValues">
+      <children xsi:type="notation:Shape" xmi:id="_6nboVtU6EeefhcmtoXoDvA" type="ExpectedValue" element="#_6nboCNU6EeefhcmtZmoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboV9U6EeefhcmtoXoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboWNU6EeefhcmtpWoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboWdU6EeefhcmtpWoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboWtU6EeefhcmtpWoDvA" type="ExpectedValue" element="#_6nboDdU6EeefhcmtaloDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboW9U6EeefhcmtpWoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboXNU6EeefhcmtpWoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboXdU6EeefhcmtqVoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboXtU6EeefhcmtqVoDvA" type="ExpectedValue" element="#_6nboEtU6EeefhcmtbkoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboX9U6EeefhcmtqVoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboYNU6EeefhcmtqVoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboYdU6EeefhcmtqVoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboYtU6EeefhcmtrUoDvA" type="ExpectedValue" element="#_6nboF9U6EeefhcmtcjoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboY9U6EeefhcmtrUoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboZNU6EeefhcmtrUoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboZdU6EeefhcmtrUoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboZtU6EeefhcmtrUoDvA" type="ExpectedValue" element="#_6nboHNU6EeefhcmtdioDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboZ9U6EeefhcmtsToDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboaNU6EeefhcmtsToDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboadU6EeefhcmtsToDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboatU6EeefhcmtsToDvA" type="ExpectedValue" element="#_6nboIdU6EeefhcmtehoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboa9U6EeefhcmtsToDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbobNU6EeefhcmttSoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbobdU6EeefhcmttSoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nbobtU6EeefhcmttSoDvA" type="ExpectedValue" element="#_6nboJtU6EeefhcmtfgoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbob9U6EeefhcmttSoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbocNU6EeefhcmttSoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbocdU6EeefhcmtuRoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboctU6EeefhcmtuRoDvA" type="ExpectedValue" element="#_6nboK9U6EeefhcmtgfoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboc9U6EeefhcmtuRoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbodNU6EeefhcmtuRoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboddU6EeefhcmtuRoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nbodtU6EeefhcmtvQoDvA" type="ExpectedValue" element="#_6nboMNU6EeefhcmtheoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbod9U6EeefhcmtvQoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboeNU6EeefhcmtvQoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboedU6EeefhcmtvQoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboetU6EeefhcmtvQoDvA" type="ExpectedValue" element="#_6nboSdU6EeefhcmtmZoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboe9U6EeefhcmtwPoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbofNU6EeefhcmtwPoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbofdU6EeefhcmtwPoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboftU6EeefhcmtwPoDvA" type="ExpectedValue" element="#_6nboTtU6EeefhcmtnYoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbof9U6EeefhcmtwPoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbogNU6EeefhcmtxOoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbogdU6EeefhcmtxOoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nbogtU6EeefhcmtxOoDvA" type="ExpectedValue" element="#_6nboRNU6EeefhcmtlaoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbog9U6EeefhcmtxOoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbohNU6EeefhcmtxOoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbohdU6EeefhcmtyNoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nbohtU6EeefhcmtyNoDvA" type="ExpectedValue" element="#_6nboNdU6EeefhcmtidoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboh9U6EeefhcmtyNoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboiNU6EeefhcmtyNoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nboidU6EeefhcmtyNoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nboitU6EeefhcmtzMoDvA" type="ExpectedValue" element="#_6nboOtU6EeefhcmtjcoDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboi9U6EeefhcmtzMoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbojNU6EeefhcmtzMoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbojdU6EeefhcmtzMoDvA" x="132" y="-186"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_6nbojtU6EeefhcmtzMoDvA" type="ExpectedValue" element="#_6nboP9U6EeefhcmtkboDvA" fontName="Segoe UI" description="Text" lineColor="0">
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nboj9U6Eeefhcmt0LoDvA" type="DiagramName"/>
+        <children xsi:type="notation:BasicDecorationNode" xmi:id="_6nbokNU6Eeefhcmt0LoDvA" type="Description"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6nbokdU6Eeefhcmt0LoDvA" x="132" y="-186"/>
+      </children>
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:id="_6nboktU6Eeefhcmt0LoDvA" type="TreeTables">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:id="_6nbok9U6Eeefhcmt0LoDvA" type="TreeDocument_Notes">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_6nbolNU6Eeefhcmt1KoDvA">
+      <verticalGuides xmi:id="_6nboldU6Eeefhcmt1KoDvA" position="164">
+        <nodeMap xmi:id="_6nboltU6Eeefhcmt1KoDvA" value="Right" key="#_6nboCNU6EeefhcmtZmoDvA"/>
+      </verticalGuides>
+      <verticalGuides xmi:id="_6nbol9U6Eeefhcmt1KoDvA" position="392">
+        <nodeMap xmi:id="_6nbomNU6Eeefhcmt1KoDvA" value="Right" key="#_6nboDdU6EeefhcmtaloDvA"/>
+        <nodeMap xmi:id="_6nbomdU6Eeefhcmt2JoDvA" value="Right" key="#_6nboEtU6EeefhcmtbkoDvA"/>
+      </verticalGuides>
+      <verticalGuides xmi:id="_6nbomtU6Eeefhcmt2JoDvA" position="620">
+        <nodeMap xmi:id="_6nbom9U6Eeefhcmt2JoDvA" value="Right" key="#_6nboF9U6EeefhcmtcjoDvA"/>
+        <nodeMap xmi:id="_6nbonNU6Eeefhcmt2JoDvA" value="Right" key="#_6nboHNU6EeefhcmtdioDvA"/>
+        <nodeMap xmi:id="_6nbondU6Eeefhcmt2JoDvA" value="Right" key="#_6nboTtU6EeefhcmtnYoDvA"/>
+        <nodeMap xmi:id="_6nbontU6Eeefhcmt3IoDvA" value="Right" key="#_6nboNdU6EeefhcmtidoDvA"/>
+        <nodeMap xmi:id="_6nbon9U6Eeefhcmt3IoDvA" value="Right" key="#_6nboOtU6EeefhcmtjcoDvA"/>
+      </verticalGuides>
+      <verticalGuides xmi:id="_6nbooNU6Eeefhcmt3IoDvA" position="848">
+        <nodeMap xmi:id="_6nboodU6Eeefhcmt3IoDvA" value="Right" key="#_6nboIdU6EeefhcmtehoDvA"/>
+        <nodeMap xmi:id="_6nbootU6Eeefhcmt3IoDvA" value="Right" key="#_6nboJtU6EeefhcmtfgoDvA"/>
+        <nodeMap xmi:id="_6nboo9U6Eeefhcmt4HoDvA" value="Right" key="#_6nboK9U6EeefhcmtgfoDvA"/>
+        <nodeMap xmi:id="_6nbopNU6Eeefhcmt4HoDvA" value="Right" key="#_6nboMNU6EeefhcmtheoDvA"/>
+        <nodeMap xmi:id="_6nbopdU6Eeefhcmt4HoDvA" value="Right" key="#_6nboSdU6EeefhcmtmZoDvA"/>
+        <nodeMap xmi:id="_6nboptU6Eeefhcmt4HoDvA" value="Right" key="#_6nboRNU6EeefhcmtlaoDvA"/>
+        <nodeMap xmi:id="_6nbop9U6Eeefhcmt4HoDvA" value="Right" key="#_6nboP9U6EeefhcmtkboDvA"/>
+      </verticalGuides>
+    </styles>
+  </notation:Diagram>
+</xmi:XMI>
